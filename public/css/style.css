@@ -30,6 +30,30 @@ body{
 	justify-content: space-between;
 	padding-top: 54px;
 }
+.header__list{
+	display: flex;
+	flex-wrap: wrap;
+}
+.header__item{
+	margin-right: 82px;
+}
+.header__item:last-child{
+	margin-right:0px;
+}
+.header__link{
+	font-size: 18px;
+	list-style: 24px;
+	color: white;
+	text-decoration: none;
+}
+.header__link:hover, .header__link:focus, .header__link:active{
+	opacity: .75;
+}
+.intro{
+	height: 100vh;
+	background: url(../img/intro-lg.jpg) no-repeat center;
+	background-size: cover;
+}
 
 /* lato-regular - latin */
 @font-face {
